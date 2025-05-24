@@ -2,7 +2,9 @@ Machine Learning (ML) is a branch of artificial intelligence (AI) that focuses o
 Instead of writing detailed rules for how to do something, we give the machine lots of examples, and it figures out the rules on its own.
 
 🔧 How It Works (Simplified Steps):
-Collect Data : Example- A list of house prices along with their features (size, number of bedrooms, location).
+Collect Data :
+
+Example- A list of house prices along with their features (size, number of bedrooms, location).
 
 Train a Model: The algorithm looks for patterns and relationships in the data.
 
@@ -19,8 +21,11 @@ Improve Over Time: With more data and feedback, the model can become more accura
 
 🚗 Real-World Example: Self-Driving Cars
 A self-driving car uses machine learning to:
+
 -> Detect pedestrians and traffic signs (from image data)
+
 -> Predict what nearby cars will do
+
 -> Decide when to accelerate, brake, or turn
 
 It learns these behaviors by analyzing massive amounts of labeled driving data and improving over time.
