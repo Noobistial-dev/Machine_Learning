@@ -1,0 +1,23 @@
+Supervised learning is a type of machine learning where a model is trained using a labeled dataset — that means the input data comes with the correct output. The goal is for the model to learn the relationship between inputs and outputs so it can predict outcomes for new, unseen data.
+🔍 Real-World Example: Email Spam Detection
+📌 Problem:
+You want to build a system that can automatically classify emails as spam or not spam.
+
+🧠 How Supervised Learning Works Here:
+1. Training Data (Labeled Examples):
+You collect thousands of emails. Each email is labeled:
+"Spam" (1)
+"Not Spam" (0)
+Each email is an input, and the spam label is the output.
+| Email Text                                   | Label        |
+| -------------------------------------------- | ------------ |
+| "Congratulations! You've won a free iPhone!" | Spam (1)     |
+| "Meeting rescheduled to 3 PM tomorrow."      | Not Spam (0) |
+| "Lowest prices on insurance, click now!"     | Spam (1)     |
+
+
+2. Model Training: The supervised learning algorithm (e.g., logistic regression, decision tree, neural network) looks for patterns in the data — like certain words or phrases that are more common in spam emails.
+
+3. Model Prediction: Once trained, you give it a new, unlabeled email, and it predicts whether it's spam or not.
+
+4. Evaluation: You test the model on a new set of emails it hasn't seen before to see how accurately it can classify them.
