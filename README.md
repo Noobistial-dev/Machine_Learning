@@ -22,6 +22,7 @@ A self-driving car uses machine learning to:
 -> Detect pedestrians and traffic signs (from image data)
 -> Predict what nearby cars will do
 -> Decide when to accelerate, brake, or turn
+
 It learns these behaviors by analyzing massive amounts of labeled driving data and improving over time.
 
 🧩 Key Idea:
